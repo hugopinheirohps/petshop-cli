@@ -5,5 +5,12 @@ function salvar(){}
 function buscar(id){}
 
 module.exports = {
+
+    listar: () =>{
+        console.table(cachorros);
+    },
+    descrever: (id) => {
+        
+    }
     
 }
